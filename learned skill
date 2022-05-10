@@ -1,0 +1,16 @@
+#connect Pepper
+# connect to VU-ResearchDevice-Net wifi
+# in terminal: ssh nao@10.15.3.171 (password: pepper)
+# cd stereo_depth && python server.py --cam_id 0 --res_id 1
+
+
+
+# upload documents to server:
+#  : mkdir new
+#  : scp  /Users/chenglinlin/Documents/code/Socket_Connection/server.py nao@10.15.3.167:~/naoqi/new/
+#  : nano server.py
+# revise it
+# press ctrl&x to save then rename it
+
+#open local jupyter to run gaze360(here Detectron2 have been installed in my own computer )
+# anaconda ->environment choose 'cll'-> open jupyter nootbook
